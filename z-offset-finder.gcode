@@ -1,4 +1,5 @@
 ; Script to find the probe's z-offset, for Marlin-based printers
+G21 ; metric
 G28 ; home all axes
 M104 S150 ; preheat hot end to clear debris from nozzle
 M190 S65 ; heat bed
