@@ -1,6 +1,6 @@
 # Marlin Z offset finder
 
-This is a simple g-code script to allow you to find the correct z-offset for your printer's bed-level probe. This script assumes that the probe is correctly positioned, ie, that it triggers safely below the nozzle and that the offset will not exceed 3mm. If your probe is connected to an endstop, you should disable ABORT_ON_ENDSTOP_HIT_FEATURE_ENABLED in Configuration_adv.h. I'm not responsible if your nozzle crashes into the bed or anything else bad happens.
+This is a simple g-code script to allow you to find the correct z-offset for your printer's bed-level probe. This script assumes that the probe is correctly positioned, ie, that it triggers safely **below** the nozzle and that the **offset will not exceed 3mm**. If your probe is connected to an endstop, you should disable ABORT_ON_ENDSTOP_HIT_FEATURE_ENABLED in Configuration_adv.h. I'm not responsible if your nozzle crashes into the bed or anything else bad happens.
 
 # Usage
 
